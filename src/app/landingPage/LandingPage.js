@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 const  EntryMessage = () => {
   return (
     <div className="reposition">
@@ -12,7 +12,7 @@ const  EntryMessage = () => {
 export const LandingPage = ({namedContent, additionalContent, rxpng}) => {
   return (
     <div>
-      <img src={rxpng} id="loading" />
+      <img src={rxpng} id="loading" alt="" />
       <EntryMessage/>
     </div>
   )

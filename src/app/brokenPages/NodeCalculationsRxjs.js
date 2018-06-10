@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../../assets/css/additionalStyling.css';
 // const  EntryMessage = () => {
 //   return (
@@ -12,7 +12,7 @@ export const NodeCalculationsRxjs = ({rxpng}) => {
   return (
     <div>
       future efforts will go into this implementation
-      
+
     </div>
   )
 }

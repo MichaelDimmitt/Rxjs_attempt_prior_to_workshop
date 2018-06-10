@@ -11,18 +11,15 @@ import { GameRxjs } from './brokenPages/GameRxjs.js'
 // import {TestSuiteIntroduction} from './testSuiteIntroduction/OldTestSuiteIntroduction.js'
 
 function determineComponents(currRoute) {
-  {
-    console.log(currRoute)
-    switch (currRoute) {
-      case '/': return (<LandingPage rxpng={rxpng}/>); break;
-      case '/main_landing_page.html': return (<TestSuiteIntroduction rxpng={rxpng}/>); break;
-      case '/brokenPages/requests.html': return (<RequestManipulationRxjs rxpng={rxpng}/>); break;
-      case '/brokenPages/calc.html': return (<NodeCalculationsRxjs rxpng={rxpng}/>); break;
-      case '/brokenPages/game.html': return (<GameRxjs rxpng={rxpng}/>); break;
-      
-      // case '/main_rxjs_page.html': return (<RxjsRunner/>); break;
-      default: return (<LandingPage rxpng={rxpng}/>);
-    }
+  console.log(currRoute)
+  switch (currRoute) {
+    case '/': return (<LandingPage rxpng={rxpng}/>);
+    case '/main_landing_page.html': return (<TestSuiteIntroduction rxpng={rxpng}/>);
+    case '/brokenPages/requests.html': return (<RequestManipulationRxjs rxpng={rxpng}/>);
+    case '/brokenPages/calc.html': return (<NodeCalculationsRxjs rxpng={rxpng}/>);
+    case '/brokenPages/game.html': return (<GameRxjs rxpng={rxpng}/>);
+    // case '/main_rxjs_page.html': return (<RxjsRunner/>); break;
+    default: return (<LandingPage rxpng={rxpng}/>);
   }
 }
 
