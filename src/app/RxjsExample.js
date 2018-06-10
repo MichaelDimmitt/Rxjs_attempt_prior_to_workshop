@@ -4,6 +4,7 @@ import '../assets/css/animation.css';
 import '../assets/css/additionalStyling.css';
 import { LandingPage } from './landingPage/LandingPage.js';
 import { TestSuiteIntroduction } from './testSuiteIntroduction/TestSuiteIntroduction.js'
+import { RequestManipulationRxjs } from './brokenPages/RequestManipulationRxjs.js'
 
 // import {TestSuiteIntroduction} from './testSuiteIntroduction/OldTestSuiteIntroduction.js'
 
@@ -13,6 +14,7 @@ function determineComponents(currRoute) {
     switch (currRoute) {
       case '/': return (<LandingPage rxpng={rxpng}/>); break;
       case '/main_landing_page.html': return (<TestSuiteIntroduction rxpng={rxpng}/>); break;
+      case '/brokenPages/requests.html': return (<RequestManipulationRxjs rxpng={rxpng}/>); break;
       // case '/main_rxjs_page.html': return (<RxjsRunner/>); break;
       default: return (<LandingPage rxpng={rxpng}/>);
     }
