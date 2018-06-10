@@ -3,7 +3,7 @@ Web App that responds to relative expansion and contraction with visual feedback
 
 ## Installation instructions:
 ```
-git clone https://github.com/TylerGlisson/New-Universe.git;
+git clone https://github.com/MichaelDimmitt/Rxjs_attempt_prior_to_workshop.git
 npm install;
 npm start;
 ```
