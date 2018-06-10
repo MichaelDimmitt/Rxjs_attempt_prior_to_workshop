@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import RxjsExample from './app/RxjsExample';
 import registerServiceWorker from './registerServiceWorker';
+import './assets/css/animation.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<RxjsExample />, document.getElementById('root'));
 registerServiceWorker();
