@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div>
+    <img
+      alt=""
+      id="loading"
+      src="rxjs.png"
+    />
+    <div
+      className="reposition"
+    >
+      <h1>
+        RxJS the way of the future.
+      </h1>
+      <p>
+        examples in slim supply.
+      </p>
+      <a
+        href="main_landing_page.html"
+      >
+        click here
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render correctly 1`] = `
+<div>
+  <div>
+    <img
+      alt=""
+      id="loading"
+      src="rxjs.png"
+    />
+    <div
+      className="reposition"
+    >
+      <h1>
+        RxJS the way of the future.
+      </h1>
+      <p>
+        examples in slim supply.
+      </p>
+      <a
+        href="main_landing_page.html"
+      >
+        click here
+      </a>
+    </div>
+  </div>
+</div>
+`;
